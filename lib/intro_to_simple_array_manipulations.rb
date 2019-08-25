@@ -10,10 +10,9 @@ def using_pop(array)
   array.pop
 end
 
-def pop_with_args(array, arg)
-  new = []
-  arg.times do
-    new << array.pop
-  end
+def pop_with_args(array)
+
+    new << array.pop(2)
+  
   return new
 end
