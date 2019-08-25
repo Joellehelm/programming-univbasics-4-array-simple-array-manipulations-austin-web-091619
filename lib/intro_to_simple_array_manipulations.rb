@@ -11,8 +11,5 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-
-    new << array.pop(2)
-
-  return new
+2.times do using_pop(array)
 end
